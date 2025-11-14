@@ -29,3 +29,42 @@ source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install --upgrade pip
 pip install .
 ```
+
+## Project Structure
+.
+├── README.md
+├── __pycache__
+│   ├── call_function.cpython-312.pyc
+│   ├── config.cpython-312.pyc
+│   └── prompts.cpython-312.pyc
+├── calculator
+│   ├── README.md
+│   ├── calculator.py
+│   ├── lorem.txt
+│   ├── main.py
+│   ├── pkg
+│   │   ├── __pycache__
+│   │   │   ├── calculator.cpython-312.pyc
+│   │   │   └── render.cpython-312.pyc
+│   │   ├── calculator.py
+│   │   ├── morelorem.txt
+│   │   └── render.py
+│   └── tests.py
+├── call_function.py
+├── config.py
+├── functions
+│   ├── __pycache__
+│   │   ├── get_file_content.cpython-312.pyc
+│   │   ├── get_files_info.cpython-312.pyc
+│   │   ├── run_python_file.cpython-312.pyc
+│   │   └── write_file.cpython-312.pyc
+│   ├── get_file_content.py
+│   ├── get_files_info.py
+│   ├── run_python_file.py
+│   └── write_file.py
+├── main.py
+├── pkg
+├── prompts.py
+├── pyproject.toml
+├── tests.py
+└── uv.lock
