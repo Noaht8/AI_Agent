@@ -12,3 +12,20 @@ This project provides core functionality for prompt handling, function/tool inte
 - Simple test harness (`tests.py`) to validate behaviour and ensure components work as expected.  
 - Pre-defined tool modules or example functions (in the `functions` folder) to demonstrate how the agent can interact with external logic.  
 - Lightweight dependencies and a `pyproject.toml` to manage the Python environment & packaging.
+
+## Getting Started
+
+### Prerequisites  
+- Python 3.8+  
+- (Optional) Virtual environment (venv or conda)  
+- Required packages installed (see `pyproject.toml` for details)  
+
+### Installation  
+```bash
+git clone https://github.com/Noaht8/AI_Agent.git
+cd AI_Agent
+python3 -m venv venv
+source venv/bin/activate        # on Windows: venv\Scripts\activate
+pip install --upgrade pip
+pip install .
+```
