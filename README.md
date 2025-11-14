@@ -30,6 +30,7 @@ pip install --upgrade pip
 pip install .
 ```
 
+```
 ## Project Structure
 .
 ├── README.md
@@ -67,4 +68,6 @@ pip install .
 ├── prompts.py
 ├── pyproject.toml
 ├── tests.py
+
 └── uv.lock
+```
